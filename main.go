@@ -9,6 +9,10 @@ import (
 )
 
 var roman = map[string]int{
+	"C":    100,
+	"XC":   90,
+	"L":    50,
+	"XL":   40,
 	"X":    10,
 	"IX":   9,
 	"VIII": 8,
@@ -20,7 +24,11 @@ var roman = map[string]int{
 	"II":   2,
 	"I":    1,
 }
-var convIntToRoman = [10]int{
+var convIntToRoman = [14]int{
+	100,
+	90,
+	50,
+	40,
 	10,
 	9,
 	8,
